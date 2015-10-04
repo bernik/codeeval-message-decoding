@@ -1,32 +1,24 @@
 # message-decoding
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+my solution of codeeval [message decoding](https://www.codeeval.com/open_challenges/36/) challenge
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar message-decoding-0.1.0-standalone.jar [args]
+### with leiningen 
+    $ lein run [path]
+### with uberjar
+    $ lein uberjar
+    $ java -jar message-decoding-0.1.0-standalone.jar [path]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+path - path to input data file
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
 ### Might be Useful
+
+If you, like me, want to submit clojure solution to codeeval, don't. 
+They will say that challenge is *partially* solved because of memory consumption and time.
+Looks like codeeval [is broken](https://getsatisfaction.com/codeeval/topics/clojure_time_memory_stats_seem_wrong) for clojure.
 
 ## License
 
